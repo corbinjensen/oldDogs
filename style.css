@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Graduate');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
 
 body {
   font-family: 'Graduate', serif;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
 }
 
 header {
   padding: 1em;
+  border: .3em double red;
+  max-width: 21em;
+}
+
+a {
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+  color: darkblue;
 }
